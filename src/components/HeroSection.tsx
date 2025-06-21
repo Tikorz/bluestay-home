@@ -91,22 +91,7 @@ export default function HeroSection({ onSearch }: HeroSectionProps) {
                     <MapPinIcon className="w-4 h-4 mr-1" />
                     Where to?
                   </label>
-                  {/*<Select
-                    value={searchLocation}
-                    onValueChange={setSearchLocation}
-                  >
-                    <SelectTrigger className="h-12">
-                      <SelectValue placeholder="Search destination..." />
-                    </SelectTrigger>
-                    <SelectContent>
-                      {popularDestinations.map((destination) => (
-                        <SelectItem key={destination} value={destination}>
-                          {destination}
-                        </SelectItem>
-                      ))}
-                    </SelectContent>
-                  </Select>*/}
-                  <SearchAutocomplete />
+                  <SearchAutocomplete onCitySelect={setSearchLocation} />
                 </div>
 
                 {/* Check-in Date */}

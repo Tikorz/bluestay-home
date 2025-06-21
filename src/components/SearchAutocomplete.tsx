@@ -1,11 +1,13 @@
 import { useState } from "react";
-import { useNavigate } from "react-router-dom";
 import locationData from "@/data/locations.json";
 
-export default function SearchAutocomplete() {
+interface Props {
+  onCitySelect: (city: string) => void;
+}
+
+export default function SearchAutocomplete({ onCitySelect }: Props) {
   const [query, setQuery] = useState("");
   const [results, setResults] = useState<string[]>([]);
-  const navigate = useNavigate();
 
   const allCities = Array.from(
     new Set(Object.values(locationData).map((loc) => loc.city))
@@ -26,9 +28,9 @@ export default function SearchAutocomplete() {
   };
 
   const handleSelect = (city: string) => {
-    setQuery("");
+    setQuery(city);
     setResults([]);
-    navigate(`/search?q=${encodeURIComponent(city)}`);
+    onCitySelect(city);
   };
 
   return (
