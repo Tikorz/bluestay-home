@@ -5,12 +5,39 @@ interface User {
   email: string;
   name: string;
   membershipLevel: "standard" | "premium";
+  role: "standard" | "admin";
 }
 
 interface AuthState {
   user: User | null;
   isLoading: boolean;
 }
+
+const demoUsers: {
+  email: string;
+  password: string;
+  role: User["role"];
+  membershipLevel: User["membershipLevel"];
+}[] = [
+  {
+    email: "admin@demo.com",
+    password: "admin123",
+    role: "admin",
+    membershipLevel: "premium",
+  },
+  {
+    email: "user@demo.com",
+    password: "user123",
+    role: "standard",
+    membershipLevel: "standard",
+  },
+  {
+    email: "premium@demo.com",
+    password: "premium123",
+    role: "standard",
+    membershipLevel: "premium",
+  },
+];
 
 export function useAuth() {
   const [authState, setAuthState] = useState<AuthState>({
@@ -19,7 +46,6 @@ export function useAuth() {
   });
 
   useEffect(() => {
-    // Check for existing user in localStorage
     const savedUser = localStorage.getItem("bluestay_user");
     if (savedUser) {
       try {
@@ -35,37 +61,31 @@ export function useAuth() {
   }, []);
 
   const login = async (email: string, password: string) => {
-    // Simulate API call
-    await new Promise((resolve) => setTimeout(resolve, 1000));
+    await new Promise((resolve) => setTimeout(resolve, 500)); // Simuliertes Delay
 
-    // Mock user creation
-    const user: User = {
-      id: Math.random().toString(36).substr(2, 9),
-      email,
-      name: email.split("@")[0],
-      membershipLevel: "standard",
-    };
+    const match = demoUsers.find(
+      (u) => u.email === email && u.password === password
+    );
 
-    localStorage.setItem("bluestay_user", JSON.stringify(user));
-    setAuthState({ user, isLoading: false });
-    return { success: true };
+    if (match) {
+      const user: User = {
+        id: Math.random().toString(36).substr(2, 9),
+        email: match.email,
+        name: match.email.split("@")[0],
+        role: match.role,
+        membershipLevel: match.membershipLevel,
+      };
+      localStorage.setItem("bluestay_user", JSON.stringify(user));
+      setAuthState({ user, isLoading: false });
+      return { success: true };
+    }
+
+    return { success: false };
   };
 
   const signup = async (email: string, password: string, name?: string) => {
-    // Simulate API call
-    await new Promise((resolve) => setTimeout(resolve, 1000));
-
-    // Mock user creation
-    const user: User = {
-      id: Math.random().toString(36).substr(2, 9),
-      email,
-      name: name || email.split("@")[0],
-      membershipLevel: "standard",
-    };
-
-    localStorage.setItem("bluestay_user", JSON.stringify(user));
-    setAuthState({ user, isLoading: false });
-    return { success: true };
+    // Registrierung deaktiviert, da nur Demo-User erlaubt
+    return { success: false, message: "Registrierung deaktiviert" };
   };
 
   const logout = () => {
