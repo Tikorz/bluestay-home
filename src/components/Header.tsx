@@ -13,6 +13,7 @@ import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { Avatar, AvatarFallback } from "@/components/ui/avatar";
 import { useAuth } from "@/hooks/useAuth";
 import { UserIcon, LogOutIcon } from "lucide-react";
+import { Link } from "react-router-dom";
 
 export default function Header() {
   const [isLoginOpen, setIsLoginOpen] = useState(false);
@@ -167,25 +168,17 @@ export default function Header() {
 
                   {/* Mobile Auth Buttons */}
                   <div className="mt-auto pb-6 space-y-3">
-                    <Button
-                      variant="outline"
-                      className="w-full"
-                      onClick={() => {
-                        setIsMobileMenuOpen(false);
-                        setIsLoginOpen(true);
-                      }}
-                    >
-                      Sign In
-                    </Button>
-                    <Button
-                      className="w-full bg-blue-600 hover:bg-blue-700"
-                      onClick={() => {
-                        setIsMobileMenuOpen(false);
-                        setIsSignupOpen(true);
-                      }}
-                    >
-                      Sign Up
-                    </Button>
+                    <Link to="/login" className="w-full">
+                      <Button variant="outline" className="w-full">
+                        Sign In
+                      </Button>
+                    </Link>
+
+                    <Link to="/register" className="w-full">
+                      <Button className="w-full bg-blue-600 hover:bg-blue-700">
+                        Sign Up
+                      </Button>
+                    </Link>
                   </div>
                 </div>
               </SheetContent>

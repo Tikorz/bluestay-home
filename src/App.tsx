@@ -10,6 +10,8 @@ import Footer from "./components/Footer";
 import LocationDetail from "./components/LocationDetail";
 import SearchResults from "./components/SearchResults";
 import BookingForm from "@/components/BookingForm";
+import Login from "@/pages/Login";
+import Register from "@/pages/Register";
 
 function App() {
   const navigate = useNavigate();
@@ -49,6 +51,8 @@ function App() {
           element={<LocationDetail onBack={() => navigate(-1)} />}
         />
         <Route path="/booking/:id" element={<BookingForm />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/register" element={<Register />} />
       </Routes>
     </div>
   );
