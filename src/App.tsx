@@ -48,8 +48,8 @@ function App() {
           path="/location/:id"
           element={<LocationDetail onBack={() => navigate(-1)} />}
         />
+        <Route path="/booking/:id" element={<BookingForm />} />
       </Routes>
-      <Route path="/booking/:id" element={<BookingForm />} />
     </div>
   );
 }
