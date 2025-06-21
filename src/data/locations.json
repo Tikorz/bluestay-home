@@ -1,0 +1,272 @@
+{
+  "berlin-loft": {
+    "id": "berlin-loft",
+    "name": "Urban Loft Mitte",
+    "city": "Berlin, Germany",
+    "rating": 4.8,
+    "reviewCount": 482,
+    "price": 140,
+    "badge": "Stylish",
+    "badgeColor": "bg-black text-white",
+    "description": "Industrial-chic loft in the creative heart of Berlin.",
+    "images": [
+      "https://i.imgur.com/DBKcPrx.jpeg",
+      "https://i.imgur.com/ioTC54Q.jpeg",
+      "https://i.imgur.com/6ThPHrC.jpeg"
+    ],
+    "features": ["Loft Design", "Near Alexanderplatz", "Large Windows"],
+    "amenities": ["Free WiFi", "Coffee Machine"]
+  },
+  "berlin-classic": {
+    "id": "berlin-classic",
+    "name": "Charlottenburg Classic Flat",
+    "city": "Berlin, Germany",
+    "rating": 4.6,
+    "reviewCount": 294,
+    "price": 120,
+    "badge": "Historic",
+    "badgeColor": "bg-yellow-100 text-yellow-800",
+    "description": "Elegant apartment in the historic Charlottenburg area.",
+    "images": [
+      "https://i.imgur.com/DBKcPrx.jpeg",
+      "https://i.imgur.com/ioTC54Q.jpeg",
+      "https://i.imgur.com/6ThPHrC.jpeg"
+    ],
+    "features": ["Balcony", "Elevator", "Quiet Neighborhood"],
+    "amenities": ["Free WiFi", "Kitchen", "Parking"]
+  },
+  "berlin-riverside": {
+    "id": "berlin-riverside",
+    "name": "Spree Riverside Studio",
+    "city": "Berlin, Germany",
+    "rating": 4.7,
+    "reviewCount": 330,
+    "price": 130,
+    "badge": "View",
+    "badgeColor": "bg-blue-100 text-blue-800",
+    "description": "Cozy studio with a river view near East Side Gallery.",
+    "images": [
+      "https://i.imgur.com/DBKcPrx.jpeg",
+      "https://i.imgur.com/ioTC54Q.jpeg",
+      "https://i.imgur.com/6ThPHrC.jpeg"
+    ],
+    "features": ["River View", "Modern Interior"],
+    "amenities": ["Free WiFi", "Coffee Machine"]
+  },
+  "rome-terrace": {
+    "id": "rome-terrace",
+    "name": "Trastevere Terrace Suite",
+    "city": "Rome, Italy",
+    "rating": 4.9,
+    "reviewCount": 521,
+    "price": 160,
+    "badge": "Romantic",
+    "badgeColor": "bg-pink-100 text-pink-800",
+    "description": "Charming rooftop suite with private terrace in Trastevere.",
+    "images": [
+      "https://i.imgur.com/DBKcPrx.jpeg",
+      "https://i.imgur.com/ioTC54Q.jpeg",
+      "https://i.imgur.com/6ThPHrC.jpeg"
+    ],
+    "features": ["Private Terrace", "Historic District"],
+    "amenities": ["Free WiFi", "Coffee Machine", "Parking"]
+  },
+  "rome-vatican": {
+    "id": "rome-vatican",
+    "name": "Vatican Garden Studio",
+    "city": "Rome, Italy",
+    "rating": 4.7,
+    "reviewCount": 310,
+    "price": 135,
+    "badge": "Quiet",
+    "badgeColor": "bg-green-100 text-green-800",
+    "description": "Peaceful garden-view studio walking distance from the Vatican.",
+    "images": [
+      "https://i.imgur.com/DBKcPrx.jpeg",
+      "https://i.imgur.com/ioTC54Q.jpeg",
+      "https://i.imgur.com/6ThPHrC.jpeg"
+    ],
+    "features": ["Garden View", "Near Vatican Museums"],
+    "amenities": ["Free WiFi", "Coffee Machine"]
+  },
+  "rome-colosseum": {
+    "id": "rome-colosseum",
+    "name": "Colosseum Historic Loft",
+    "city": "Rome, Italy",
+    "rating": 4.8,
+    "reviewCount": 450,
+    "price": 145,
+    "badge": "Central",
+    "badgeColor": "bg-red-100 text-red-800",
+    "description": "Loft with classic Roman flair just steps from the Colosseum.",
+    "images": [
+      "https://i.imgur.com/DBKcPrx.jpeg",
+      "https://i.imgur.com/ioTC54Q.jpeg",
+      "https://i.imgur.com/6ThPHrC.jpeg"
+    ],
+    "features": ["Near Historic Sites", "Wooden Beams"],
+    "amenities": ["Free WiFi", "Coffee Machine"]
+  },
+  "madrid-granvia": {
+    "id": "madrid-granvia",
+    "name": "Gran Vía Skyline Apartment",
+    "city": "Madrid, Spain",
+    "rating": 4.6,
+    "reviewCount": 312,
+    "price": 115,
+    "badge": "Central",
+    "badgeColor": "bg-red-100 text-red-800",
+    "description": "Top-floor suite with skyline view over Gran Vía.",
+    "images": [
+      "https://i.imgur.com/DBKcPrx.jpeg",
+      "https://i.imgur.com/ioTC54Q.jpeg",
+      "https://i.imgur.com/6ThPHrC.jpeg"
+    ],
+    "features": ["Skyline View", "Modern Interior"],
+    "amenities": ["Free WiFi", "Coffee Machine", "Parking"]
+  },
+  "madrid-retreat": {
+    "id": "madrid-retreat",
+    "name": "Retiro Park Retreat",
+    "city": "Madrid, Spain",
+    "rating": 4.5,
+    "reviewCount": 281,
+    "price": 108,
+    "badge": "Nature",
+    "badgeColor": "bg-green-100 text-green-800",
+    "description": "Peaceful apartment steps away from Retiro Park.",
+    "images": [
+      "https://i.imgur.com/DBKcPrx.jpeg",
+      "https://i.imgur.com/ioTC54Q.jpeg",
+      "https://i.imgur.com/6ThPHrC.jpeg"
+    ],
+    "features": ["Close to Park", "Large Kitchen"],
+    "amenities": ["Free WiFi", "Coffee Machine"]
+  },
+  "madrid-art": {
+    "id": "madrid-art",
+    "name": "Art District Studio",
+    "city": "Madrid, Spain",
+    "rating": 4.7,
+    "reviewCount": 340,
+    "price": 122,
+    "badge": "Trendy",
+    "badgeColor": "bg-purple-100 text-purple-800",
+    "description": "Modern studio in the heart of Madrid's art quarter.",
+    "images": [
+      "https://i.imgur.com/DBKcPrx.jpeg",
+      "https://i.imgur.com/ioTC54Q.jpeg",
+      "https://i.imgur.com/6ThPHrC.jpeg"
+    ],
+    "features": ["Art District", "Modern Design"],
+    "amenities": ["Free WiFi", "Coffee Machine"]
+  },
+  "barcelona-eixample": {
+    "id": "barcelona-eixample",
+    "name": "Eixample Designer Flat",
+    "city": "Barcelona, Spain",
+    "rating": 4.9,
+    "reviewCount": 500,
+    "price": 150,
+    "badge": "Design",
+    "badgeColor": "bg-indigo-100 text-indigo-800",
+    "description": "Designer apartment with Catalan charm in Eixample.",
+    "images": [
+      "https://i.imgur.com/DBKcPrx.jpeg",
+      "https://i.imgur.com/ioTC54Q.jpeg",
+      "https://i.imgur.com/6ThPHrC.jpeg"
+    ],
+    "features": ["Architectural Charm", "Central Location"],
+    "amenities": ["Free WiFi", "Coffee Machine", "Parking"]
+  },
+  "barcelona-beach": {
+    "id": "barcelona-beach",
+    "name": "Barceloneta Beach Studio",
+    "city": "Barcelona, Spain",
+    "rating": 4.7,
+    "reviewCount": 398,
+    "price": 135,
+    "badge": "Beach",
+    "badgeColor": "bg-blue-100 text-blue-800",
+    "description": "Sunny studio just steps from the beach.",
+    "images": [
+      "https://i.imgur.com/DBKcPrx.jpeg",
+      "https://i.imgur.com/ioTC54Q.jpeg",
+      "https://i.imgur.com/6ThPHrC.jpeg"
+    ],
+    "features": ["Near Beach", "Sunlit Balcony"],
+    "amenities": ["Free WiFi", "Coffee Machine"]
+  },
+  "barcelona-gothic": {
+    "id": "barcelona-gothic",
+    "name": "Gothic Quarter Hideaway",
+    "city": "Barcelona, Spain",
+    "rating": 4.8,
+    "reviewCount": 412,
+    "price": 128,
+    "badge": "Historic",
+    "badgeColor": "bg-yellow-100 text-yellow-800",
+    "description": "Charming apartment in Barcelona’s Gothic Quarter.",
+    "images": [
+      "https://i.imgur.com/DBKcPrx.jpeg",
+      "https://i.imgur.com/ioTC54Q.jpeg",
+      "https://i.imgur.com/DsL4XQQ.jpeg"
+    ],
+    "features": ["Historic Area", "Exposed Brick"],
+    "amenities": ["Free WiFi", "Coffee Machine"]
+  },
+  "prague-square": {
+    "id": "prague-square",
+    "name": "Old Town Square View",
+    "city": "Prague, Czech Republic",
+    "rating": 4.8,
+    "reviewCount": 490,
+    "price": 138,
+    "badge": "View",
+    "badgeColor": "bg-blue-100 text-blue-800",
+    "description": "Direct view of the historic Old Town Square.",
+    "images": [
+      "https://i.imgur.com/DBKcPrx.jpeg",
+      "https://i.imgur.com/ioTC54Q.jpeg",
+      "https://i.imgur.com/6ThPHrC.jpeg"
+    ],
+    "features": ["Historic View", "Top Floor"],
+    "amenities": ["Free WiFi", "Coffee Machine", "Parking"]
+  },
+  "prague-castle": {
+    "id": "prague-castle",
+    "name": "Castle District Suite",
+    "city": "Prague, Czech Republic",
+    "rating": 4.7,
+    "reviewCount": 378,
+    "price": 130,
+    "badge": "Classic",
+    "badgeColor": "bg-gray-100 text-gray-800",
+    "description": "Stay in Prague’s prestigious Castle District.",
+    "images": [
+      "https://i.imgur.com/DBKcPrx.jpeg",
+      "https://i.imgur.com/ioTC54Q.jpeg",
+      "https://i.imgur.com/6ThPHrC.jpeg"
+    ],
+    "features": ["Near Castle", "Elegant Style"],
+    "amenities": ["Free WiFi", "Coffee Machine"]
+  },
+  "prague-vltava": {
+    "id": "prague-vltava",
+    "name": "Vltava Riverside Apartment",
+    "city": "Prague, Czech Republic",
+    "rating": 4.6,
+    "reviewCount": 342,
+    "price": 126,
+    "badge": "Riverside",
+    "badgeColor": "bg-teal-100 text-teal-800",
+    "description": "Apartment with relaxing views of the Vltava river.",
+    "images": [
+      "https://i.imgur.com/DBKcPrx.jpeg",
+      "https://i.imgur.com/ioTC54Q.jpeg",
+      "https://i.imgur.com/6ThPHrC.jpeg"
+    ],
+    "features": ["Riverfront", "Spacious Interior"],
+    "amenities": ["Free WiFi", "Coffee Machine"]
+  }
+}
